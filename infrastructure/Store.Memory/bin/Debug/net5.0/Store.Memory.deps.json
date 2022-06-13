@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Store.Memory/1.0.0": {
+        "dependencies": {
+          "BookStore": "1.0.0"
+        },
+        "runtime": {
+          "Store.Memory.dll": {}
+        }
+      },
+      "BookStore/1.0.0": {
+        "runtime": {
+          "BookStore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Store.Memory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookStore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

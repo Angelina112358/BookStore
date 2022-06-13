@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\bin\Debug\net5.0\Store.Web.Contractors.deps.json
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\bin\Debug\net5.0\Store.Web.Contractors.dll
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\bin\Debug\net5.0\ref\Store.Web.Contractors.dll
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\bin\Debug\net5.0\Store.Web.Contractors.pdb
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\obj\Debug\net5.0\Store.Web.Contractors.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\obj\Debug\net5.0\Store.Web.Contractors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\obj\Debug\net5.0\Store.Web.Contractors.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\obj\Debug\net5.0\Store.Web.Contractors.AssemblyInfo.cs
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\obj\Debug\net5.0\Store.Web.Contractors.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\obj\Debug\net5.0\Store.Web.Contractors.dll
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\obj\Debug\net5.0\ref\Store.Web.Contractors.dll
+C:\Users\PC\Desktop\Store\presentation\Store.Web.Contractors\obj\Debug\net5.0\Store.Web.Contractors.pdb

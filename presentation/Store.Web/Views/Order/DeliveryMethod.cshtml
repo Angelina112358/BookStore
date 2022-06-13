@@ -1,0 +1,22 @@
+﻿@model IReadOnlyDictionary<string, string>
+@{
+    ViewData["Title"] = "Cпособ доставки";
+}
+
+<h1>Способ доставки</h1>
+
+<nav>
+    <form action="@Url.Action(nameof(OrderController.StartDelivery))" method="post">
+        <div class="from-group">
+            <h3 class="ml-3"><label for="code">Способ доставки:</label></h3>
+            <br/>
+            <select class="from-control ml-3" name="serviceName">
+                @foreach (var method in Model)
+                 {
+                    <option value="@method.Key">@method.Value</option>
+                 }
+            </select>
+        </div>
+        <button type="submit" class="btn btn_many ml-3 mb-3 mt-3">Далее</button>
+    </form>
+</nav>

@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "BookStore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BookStore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookStore.dll": {}
+        }
+      },
+      "Store.Web.Contractors/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Store.Web.Contractors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Web.Contractors.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookStore/1.0.0": {
+      "type": "project",
+      "path": "../../BookStore/BookStore.csproj",
+      "msbuildProject": "../../BookStore/BookStore.csproj"
+    },
+    "Store.Web.Contractors/1.0.0": {
+      "type": "project",
+      "path": "../../presentation/Store.Web.Contractors/Store.Web.Contractors.csproj",
+      "msbuildProject": "../../presentation/Store.Web.Contractors/Store.Web.Contractors.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "BookStore >= 1.0.0",
+      "Store.Web.Contractors >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\Store\\plugins\\Store.Contractor.YandexKassa\\Store.Contractor.YandexKassa.csproj",
+      "projectName": "Store.Contractor.YandexKassa",
+      "projectPath": "C:\\Users\\PC\\Desktop\\Store\\plugins\\Store.Contractor.YandexKassa\\Store.Contractor.YandexKassa.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\Store\\plugins\\Store.Contractor.YandexKassa\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\PC\\Desktop\\Store\\BookStore\\BookStore.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\Store\\BookStore\\BookStore.csproj"
+            },
+            "C:\\Users\\PC\\Desktop\\Store\\presentation\\Store.Web.Contractors\\Store.Web.Contractors.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\Store\\presentation\\Store.Web.Contractors\\Store.Web.Contractors.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

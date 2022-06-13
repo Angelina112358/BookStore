@@ -1,0 +1,30 @@
+﻿@model OrderModel
+
+@{
+    ViewData["Title"] = "Подтверждение мобильного";
+}
+
+<h1 class="mt-5">Подтверждение мобильного</h1>
+
+<nav>
+    <form action="@Url.Action(nameof(OrderController.ConfirmCellPhone))" method="post" class="ml-3 mr-3">
+        <input type="hidden" name="cellPhone" value="@Model.CellPhone" />
+        <div class="form-group">
+            <h3><label for="code">Код потдверждения</label></h3>
+            <input type="text" class="form-control" name="code" placeholder="0000" />
+            @if (Model.Errors.ContainsKey("confirmationCode"))
+            {
+                <small class="form-text text-danger">@Model.Errors["confirmationCode"]</small>
+            }
+        </div>
+        <button type="submit" class="btn btn_many">Проверить</button>
+    </form>
+
+    <form action="@Url.Action("SendConfirmationCode")" method="post" class="ml-3 mr-3">
+        <div class="form-group">
+            <h3><label for="cellPhone">Мобильный телефон</label></h3>
+            <input type="text" class="form-control" name="cellPhone" value="@Model.CellPhone" />
+        </div>
+        <button type="submit" class="btn btn_many mb-3">Повторить код</button>
+    </form>
+</nav>

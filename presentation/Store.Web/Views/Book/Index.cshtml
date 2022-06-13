@@ -1,0 +1,27 @@
+﻿@model BookModel
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<link rel="stylesheet" href="~/css/book_elem.css" />
+
+<div class="col-md-14">
+    <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 mr-1 mt-3 shadow-sm h-md-250 position-relative elem">
+        <div class="col-auto d-none d-lg-block mt-3 mb-3">
+            <img src="~/images/covers/война миров.jpg" width="500" />
+        </div>
+        <div class="col p-4 d-flex flex-column position-static">
+            <h2><strong class="d-inline-block mb-2">@Model.Author</strong></h2>
+            <h3 class="mb-0">@Model.Title</h3>
+            <p class="card-text p_description mb-auto">@Model.Description</p>
+            <h2><strong class="d-inline-block mb-2">Цена: @Model.Price</strong></h2>
+            <form action="@Url.Action(nameof(OrderController.AddItem), "Order")" method="post">
+                <input type="hidden" name="bookId" value="@Model.Id" />
+                <button class="btn btn_many mt-3" type="submit">В корзину</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,26 @@
+﻿@model IReadOnlyCollection<BookModel>
+
+@{
+    ViewData["Title"] = "Интернет-магазин";
+}
+
+<div class="row mt-5 mb-2">
+    @{
+        foreach (var book in Model)
+        {
+            <div class="col-md-6">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 mr-1 shadow-sm h-md-250 position-relative elem">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <h2><strong class="d-inline-block mb-2">@book.Author</strong></h2>
+                        <h3 class="mb-0">@book.Title</h3>
+                        <p class="card-text mb-auto">@book.Description ... </p>
+                        <a href="@Url.Action("Index", "Book", new { id = book.Id})" class="btn_read_continue mt-2" type="submit">Continue reading</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+
+

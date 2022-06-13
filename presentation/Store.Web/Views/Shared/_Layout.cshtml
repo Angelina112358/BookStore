@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BookStore</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/index.css" />
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="@Url.Action("Index", "Home")" class="btn btn_header mr-2" aria-current="page">Главная</a></li>
+            <li class="nav-item"><a href="#" class="btn btn_header mr-2">Каталог</a></li>
+            <li class="nav-item"><a href="#" class="btn btn_header mr-2">Доставка</a></li>
+            <li class="nav-item"><a href="#" class="btn btn_header mr-2">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="btn btn_header">Отзывы</a></li>
+        </ul>
+    </header>
+
+    <nav class="navbar navbar-expand-sm ">
+        <form class="form-inline my-2 my-lg-0" action="@Url.Action("Index", "Search")" method="get">
+            <img src="~/images/svg/1489798288.svg" width="50" class="mr-3" />
+            <input class="header_search_text" type="search" name="query" placeholder="Поиск книги" />
+            <button class="btn search ml-3" type="submit">Искать</button>
+        </form>
+        <span class="navbar-text ml-auto">
+            <img src="~/images/svg/shopping-cart_icon-icons.com_72552.svg" width="30" />
+            @{
+                if (Context.Session.TryGetCart(out Cart cart) && cart.TotalCount > 0)
+                {
+                    <a href="@Url.Action("Index", "Order")" class="cart">Товаров @cart.TotalCount на сумму @cart.TotalPrice</a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Index", "Order")" class="cart">Корзина</a>
+                }
+            }
+        </span>
+    </nav>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

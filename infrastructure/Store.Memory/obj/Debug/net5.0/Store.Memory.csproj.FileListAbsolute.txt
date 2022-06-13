@@ -1,0 +1,15 @@
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\bin\Debug\net5.0\Store.Memory.deps.json
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\bin\Debug\net5.0\Store.Memory.dll
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\bin\Debug\net5.0\ref\Store.Memory.dll
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\bin\Debug\net5.0\Store.Memory.pdb
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\bin\Debug\net5.0\BookStore.dll
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\bin\Debug\net5.0\BookStore.pdb
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\obj\Debug\net5.0\Store.Memory.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\obj\Debug\net5.0\Store.Memory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\obj\Debug\net5.0\Store.Memory.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\obj\Debug\net5.0\Store.Memory.AssemblyInfo.cs
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\obj\Debug\net5.0\Store.Memory.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\obj\Debug\net5.0\Store.Memory.csproj.CopyComplete
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\obj\Debug\net5.0\Store.Memory.dll
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\obj\Debug\net5.0\ref\Store.Memory.dll
+C:\Users\PC\Desktop\Store\infrastructure\Store.Memory\obj\Debug\net5.0\Store.Memory.pdb

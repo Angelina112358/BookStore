@@ -1,0 +1,109 @@
+﻿body {
+    background: #c4c4c4;
+}
+
+p, strong, h3, h2{
+    color: white;
+}
+
+nav {
+    background-color: #ff6a00;
+}
+
+.p_description{
+    font-size: 24px;
+}
+
+.home_item{
+    background-color: #ff6a00;
+}
+
+.btn_many {
+    border-color: white;
+    border: 2px solid white;
+}
+
+.btn_many:hover { 
+    background-color: #ff6a00;
+    color: white
+}
+
+.header_search_text {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.btn_read_continue {
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn_read_continue:hover{
+    background-color: #ff6a00
+}
+
+.btn {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search {
+    border-color: white;
+}
+
+.search:hover {
+    background-color: #ff6a00;
+    color: white
+}
+
+.btn_header {
+    border-color: white;
+    color: black;
+}
+
+.btn_header:hover{
+    background-color: #c4c4c4;
+    color: white;
+}
+
+.btn_header:active{
+    box-shadow: #ff6a00;
+}
+
+.elem {
+    border-radius: 10px;
+    background-color: #ff6a00
+}
+
+a{
+    display: inline-block; 
+    background: #808080; 
+    color: #fff; 
+    padding: 0.5rem; 
+    text-decoration: none;
+    border-radius: 3px; 
+}
+
+.cart {
+    border: 2px solid #ff6a00;
+    border-radius: 3px;
+}
+
+.cart:hover {
+    border: 2px solid white;
+}
+
+a:hover{
+    color:white;
+    text-decoration: none;
+    background-color: #ff6a00;
+}
